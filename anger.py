@@ -17,6 +17,25 @@ if user_input == "yes":
     print("You groaned in pain as you stood up to face the Griffin.")
     print("do you want to give the Griffin a piece of your mind?")
 
+
+    if user_input == "yes":
+        print("Anger bubbled in you, anger that you had kept at bay till now. This bird had no idea who he was dealing with.'hey! who do you think you are lugging me around for hours and then throwing me inside this cave?!' the bird payed you no mind too busy getting itself comfortable inside it's home.'Calm yourself little human, I apologize for being a bit rough with you but I had to get you to my home so you can start.' ")
+        print("Your anger faded to give way to confusion.'start what?' the bird took out a mirror as long and twice as wide as you. The griffin's glowing red eyes bore into your own. 'your journey begins here,little human.' that was all he said before pushing you into the mirror. You cried out in fear but instead of being pierced by sharp glass, you passed through it.you blacked out.")
+        print("When you woke up you were falling.again.Panick set in and you screamed,arms flailing around you but it seemed luck was on your side because you landed on something.")
+        print("you opened your eyes to see the cloud you had moments ago been on in front of you.do you want to thank the cloud?")
+
+if user_input == "no":
+    print("The Griffin bent his head,'I apologize for being a little on you,little human. Forgive me but I had to get you here so you could begin your journey.'")
+    print("You cock your head in confusion,'journey? What journey? the griffin's glowing red eyes softened.'Do not worry,little human.You will find the thing you seek'")
+    print("'what? what do you mean by the thing i've been seeking?' You were completely lost now.The Griffin said nothing in response. Instead he pulled out a mirror from behind him, a simple black picture framed vintage mirror.")
+    print("the griffin gestured toward the mirror. When you didn't budge he pierced his talon through the mirror.You took a step back preparing for the mirror to shatter into litte pieces.")
+    print("But that's not what happened.the griffin's talon simply passed through the mirror causing a ripple affect, similar to when something hits water.")
+    print("You look up at the Griffin for assureness and recieved a nod in return.")
+    print("You hesitantly took steps toward the mirror til you stood infront of it.")
+    print("do you want to go through it?")
+
+
+
     if user_input == "yes":
         user_input = input()
         print("Anger bubbled in you, anger that you had kept at bay till now. This bird had no idea who he was dealing with.'hey! who do you think you are lugging me around for hours and then throwing me inside this cave?!' the bird payed you no mind too busy getting itself comfortable inside it's home.'Calm yourself little human, I apologize for being a bit rough with you but I had to get you to my home so you can start.' ")
@@ -34,11 +53,18 @@ if user_input == "yes":
             print("You hesitantly took steps toward the mirror til you stood infront of it.")
             print("do you want to go through it?")
 
-            if user_input == "yes":
-                print("you passed through the mirror")
+            user_input = input()
+        if user_input == "yes":
+            print("you close your eyes, and jump into the mirror.When you opened your eyes you were falling flying through the sky with nothing holding you up. A cloud flew from it's postion and caught you.  It flew you to a safe spot on the ground.")
+            print("when you reached the ground, you hopped off the cloud")
+            print("Do you want to thank the cloud?")
 
 
-
+            user_input = input()
+        if user_input == "yes":
+            print("you close your eyes, and jump into the mirror.When you opened your eyes you were falling flying through the sky with nothing holding you up. A cloud flew from it's postion and caught you.  It flew you to a safe spot on the ground.")
+            print("when you reached the ground, you hopped off the cloud")
+            print("Do you want to thank the cloud?")
 
         user_input = input()
     if user_input == "yes":
@@ -49,7 +75,12 @@ if user_input == "yes":
         print("in front of you lay a fork in the path.to your right a Hot chocolate springs lay while to you left lay mountains made of Ice cream.")
         print("would you like to go to Ice cream mountain?")
     if user_input == "no":
-        print("you take the right path toward the hot springs.Aforce throws you into the hot springs.")
+        print("The sight before you takes your breath away. Desert of every type,shape,color and flavor formed the scenery.")
+        print("Candy cane trees and chocolate chip cookies that swam in a river of milk that ran into the distance.")
+        print("in front of you lay a fork in the path.to your right a Hot chocolate springs lay while to you left lay mountains made of Ice cream.")
+        print("would you like to go to Ice cream mountain?")
+
+        print("you take the right path toward the hot springs.A force throws you into the hot springs.")
         print("Game over")
 
 
